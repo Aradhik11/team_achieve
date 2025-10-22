@@ -7,9 +7,8 @@ export default defineConfig({
     port: 3000,
     open: true
   },
-  base: '/team_achieve/',
   build: {
-    outDir: 'docs'
+    outDir: 'dist'
   }
 })
 
